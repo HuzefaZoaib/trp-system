@@ -9,8 +9,8 @@ public class DealService {
 		DealDao.getInstance().addDeal(deal);
 	}
 
-	/*public void searchDeal(int id) {
+	public void searchDeal(int id) {
 		DealDao.getInstance().searchDeal(1);
-	}*/
+	}
 
 }

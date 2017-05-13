@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.collections.MapUtils;
+
 import com.training.model.Deal;
 
 public class DealDao {
@@ -26,7 +28,7 @@ public class DealDao {
 		DEALS.add(deal);
 	}
 
-	/*public Deal searchDeal(int id) {
+	public Deal searchDeal(int id) {
 		if(MapUtils.isNotEmpty(DEALS_MAP)) {
 			if(DEALS_MAP.containsKey(id)) {
 				return DEALS_MAP.get(id);
@@ -34,6 +36,6 @@ public class DealDao {
 		}
 		
 		return null;
-	}*/
+	}
 
 }
